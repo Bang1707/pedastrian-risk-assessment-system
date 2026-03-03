@@ -25,3 +25,39 @@ Video Input
 → Visualization & Analytics  
 
 ## 📂 Project Structure
+pedestrian-risk-assessment/
+│
+├── data/
+├── models/
+├── src/
+│ ├── detection/
+│ ├── tracking/
+│ ├── motion/
+│ ├── risk/
+│ ├── visualization/
+│ └── utils/
+│
+├── analytics/
+├── experiments/
+├── config/
+├── main.py
+└── requirements.txt
+
+
+## 🚀 Goals
+
+- Develop a mathematically explainable tracking model
+- Implement a custom Kalman filter tracker
+- Design a heuristic collision risk model
+- Evaluate system performance on real-world traffic footage
+
+## ⚙️ Technologies
+
+- Python
+- OpenCV
+- YOLO (Ultralytics)
+- NumPy
+- SciPy
+
+
+Author: Mesut Deniz Zeka
